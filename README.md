@@ -1,6 +1,6 @@
 ﻿# Projeto de avaliação para Acesso
 
-O projeto foi desenvolvido no prazo de uma semanas para avaliação de nível técnico de seleção.
+O projeto foi desenvolvido no prazo de uma semana para avaliação de nível técnico de seleção.
 
 ### Estrutura ###
 

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Acesso Project</string>
+
+    <string name="yes">SIM</string>
+    <string name="no">NÃO</string>
+    <string name="edit">EDITAR</string>
+
+    <string name="document_rg">RG</string>
+    <string name="document_new_item">Novo item</string>
+
+    <string name="overwrite_photo">Vocês gostaria de sobreescrever a foto atual?</string>
+    <string name="delete_document">Você gostaria de remover este documento?</string>
+
+    <string name="user_no_name">Sem nome</string>
+
+    <string name="button_sheet_new_document">NOVO DOCUMENTO</string>
+
+    <string name="activity_new_document">Novo Documento</string>
+
+    <string name="activity_new_document_title">RG - Documento de identidade</string>
+    <string name="activity_new_document_subtitle">Insira as informações do documento</string>
+    <string name="acitivty_new_document_add_photos">Tire as fotos abaixo:</string>
+
+    <string name="text_empty">Salve os seus documentos com segurança.</string>
+    <string name="hint_full_name">NOME COMPLETO:</string>
+    <string name="hint_rg_number">NÚMERO DO RG:</string>
+    <string name="hint_birth_date">DATA DE NASCIMENTO:</string>
+    <string name="button_photo_front">FOTO DA FRENTE</string>
+    <string name="button_photo_back">FOTO DO VERSO</string>
+    <string name="button_save_document">SALVAR DOCUMENTO</string>
+
+    <string name="snack_enter_name">Por favor insira o nome.</string>
+    <string name="snack_enter_rg_number">Por favor insira o número do RG.</string>
+    <string name="snack_enter_birth_day">Por favor insira a data de nascimento.</string>
+    <string name="snack_enter_photo_front">Por favor tire uma foto da frente do documento.</string>
+    <string name="snack_enter_photo_back">Por favor tire uma foto do verso do documento.</string>
+
+
+    <string name="title_activity_user">UserActivity</string>
+
+    <string name="activity_user_contact">Contato</string>
+    <string name="activity_user_email">E-MAIL:</string>
+    <string name="activity_user_phone">TELEFONE:</string>
+    <string name="activity_user_address">ENDEREÇO:</string>
+
+    <string name="activity_no_email">Sem e-mail</string>
+    <string name="activity_no_phone">Sem telefone</string>
+    <string name="activity_no_address">Sem endereço</string>
+
+    <string name="activity_no_name">Sem nome</string>
+    <string name="activity_no_number">Sem número</string>
+    <string name="activity_no_date">Sem data</string>
+
+    <string name="document_information">Informações do documento</string>
+    <string name="document_photos">Fotos do documento</string>
+
+    <string name="cancel">Cancelar</string>
+
+    <string name="action_settings">Configurações</string>
+</resources>

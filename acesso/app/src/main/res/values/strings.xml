@@ -1,3 +1,62 @@
 <resources>
-    <string name="app_name">AcessoProject</string>
+    <string name="app_name">Acesso Project</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="edit">EDIT</string>
+
+    <string name="document_rg">RG</string>
+    <string name="document_new_item">New item</string>
+
+    <string name="overwrite_photo">Would you like to overwrite the current photo?</string>
+    <string name="delete_document">Would you like to remove the current document?</string>
+
+    <string name="user_no_name">No name</string>
+
+    <string name="button_sheet_new_document">NEW DOCUMENT</string>
+
+    <string name="activity_new_document">New Document</string>
+
+    <string name="activity_new_document_title">ID - Identity document</string>
+    <string name="activity_new_document_subtitle">Enter document information</string>
+    <string name="acitivty_new_document_add_photos">Take the photos below:</string>
+
+    <string name="text_empty">Save your documents securely.</string>
+    <string name="hint_full_name">FULL NAME:</string>
+    <string name="hint_rg_number">RG NUMBER:</string>
+    <string name="hint_birth_date">BIRTH DATE:</string>
+    <string name="button_photo_front">FRONT PHOTO</string>
+    <string name="button_photo_back">BACK PHOTO</string>
+    <string name="button_save_document">SAVE DOCUMENT</string>
+
+    <string name="snack_enter_name">Please, enter a name.</string>
+    <string name="snack_enter_rg_number">Please enter a RG number.</string>
+    <string name="snack_valid_rg_number">Please enter a valid RG number.</string>
+    <string name="snack_enter_birth_day">Please enter a birth day.</string>
+    <string name="snack_valid_birth_day">Please enter valid a birth day.</string>
+    <string name="snack_enter_photo_front">Please take a photo of the front document.</string>
+    <string name="snack_enter_photo_back">Please take a photo of the back document.</string>
+
+
+    <string name="title_activity_user">UserActivity</string>
+
+    <string name="activity_user_contact">Contact</string>
+    <string name="activity_user_email">EMAIL:</string>
+    <string name="activity_user_phone">PHONE:</string>
+    <string name="activity_user_address">ADDRESS:</string>
+
+    <string name="activity_no_email">No email</string>
+    <string name="activity_no_phone">No phone</string>
+    <string name="activity_no_address">No address</string>
+
+    <string name="activity_no_name">No name</string>
+    <string name="activity_no_number">No number</string>
+    <string name="activity_no_date">No date</string>
+
+    <string name="document_information">Document information</string>
+    <string name="document_photos">Document photos</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

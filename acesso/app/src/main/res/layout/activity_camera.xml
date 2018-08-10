@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rodrigo.acessoproject.ui.camera.CameraActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.view.SurfaceView
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/back_container"/>
+
+        <include layout="@layout/mask_document" />
+
+        <RelativeLayout
+            android:id="@+id/back_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack">
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/camera_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:text="@string/cancel"
+                android:background="@null"/>
+
+        </RelativeLayout>
+
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/take_picture"
+            android:layout_width="54dp"
+            android:layout_height="52dp"
+            android:src="@mipmap/ic_camera_button"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:paddingStart="16dp"
+        android:text="@string/button_sheet_new_document"
+        android:textColor="@color/colorButtonText"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorBackground"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/add_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="start|center"
+        android:textColor="@color/colorText"
+        android:drawableStart="@mipmap/ic_holerite"
+        android:drawablePadding="16dp"
+        android:paddingStart="16dp"
+        android:text="@string/document_rg"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBackground"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/add_new_item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="start|center"
+        android:textColor="@color/colorText"
+        android:drawableStart="@mipmap/ic_holerite"
+        android:drawablePadding="16dp"
+        android:paddingStart="16dp"
+        android:text="@string/document_new_item"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBackground"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/add_new_item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textColor="@color/colorText"
+        android:gravity="start|center"
+        android:drawableStart="@mipmap/ic_holerite"
+        android:drawablePadding="16dp"
+        android:paddingStart="16dp"
+        android:text="@string/document_new_item"/>
+
+</LinearLayout>

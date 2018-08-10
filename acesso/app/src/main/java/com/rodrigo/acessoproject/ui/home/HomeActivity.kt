@@ -31,7 +31,7 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener, View.OnLongClick
     private var documents = listOf<Document>()
 
     private val user = User(1, "Nome da pessoa", "emaildapessoa@yahoo.com.br",
-            "5511949593849", "Av. Berrini, 1001, Brooklyn, São Paulo",
+            "55 (11) 94959-3849", "Av. Berrini, 1001, Brooklyn, São Paulo",
             R.mipmap.woman)
 
     private var adapter : HomeAdapter? = null

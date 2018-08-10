@@ -44,7 +44,7 @@ class DocumentActivity : AppCompatActivity() {
         document_edit.setOnClickListener {
             val intent = Intent(this, AddDocumentActivity::class.java)
             intent.putExtra("document", document)
-            startActivity(intent)
+            startActivityForResult(intent, EDIT_DOCUMENT)
         }
     }
 
@@ -64,11 +64,8 @@ class DocumentActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-
-        if (requestCode == EDIT_DOCUMENT) {
             if(resultCode == Activity.RESULT_OK){
                 inflateDocument(data?.getSerializableExtra("document") as Document)
-            }
         }
     }
 

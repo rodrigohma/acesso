@@ -29,8 +29,6 @@ import android.view.inputmethod.InputMethodManager
 
 class AddDocumentActivity : AppCompatActivity() {
 
-    private val EDIT_DOCUMENT = 1
-
     private val REQUEST_CAMERA_PERMISSION = 0
 
     private val REQUEST_PHOTO_FRONT = 1
@@ -237,7 +235,7 @@ class AddDocumentActivity : AppCompatActivity() {
                 documentDAO?.updateAll(document)
                 val intent = Intent()
                 intent.putExtra("document", document)
-                setResult(EDIT_DOCUMENT, intent)
+                setResult(Activity.RESULT_OK, intent)
                 finish()
             }
         } else {
